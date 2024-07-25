@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    height: 100%;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    position: relative; /* Necessário para o posicionamento absoluto dos ícones */
+}
+
+#container {
+    width: 320px;
+    text-align: center;
+    position: relative; /* Necessário para que os ícones fiquem sobre o container */
+}
+
+#calculadora {
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.input-valor {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    overflow: hidden;
+    text-align: right;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.key li {
+    height: 60px;
+    border-radius: 8px;
+    color: #333;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.key li:hover {
+    background-color: #e0e0e0;
+}
+
+.key li:active {
+    background-color: #d0d0d0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.operador {
+    background-color: #ff9800;
+    color: white;
+}
+
+.operador:hover {
+    background-color: #e68900;
+}
+
+.verificar {
+    grid-column: span 4;
+    background-color: #4caf50;
+    color: white;
+}
+
+.verificar:hover {
+    background-color: #388e3c;
+}
+
+.header {
+    margin-bottom: 20px; 
+}
+
+.header hgroup {
+    margin-bottom: 10px; 
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: #ffffff;
+}

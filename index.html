@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Javascript</title>
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="favicon-calculator.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="switch.css"> <!-- Incluindo o arquivo switch.css -->
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <hgroup>
+                <h1>Calculadora JS</h1>
+                <p>Vinicius Alves. Desenvolvedor Web.</p>
+            </hgroup>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/vinicius-alves-93161417a/" target="_blank" class="social-icon linkedin">
+                    <i class="fab fa-linkedin-in" title="Linkedin"></i>
+                </a>
+                <a href="https://github.com/viniciusalves23" target="_blank" class="social-icon github">
+                    <i class="fab fa-github" title="GitHub"></i>
+                </a>
+                <a href="https://portfolio-2024-vinicius-alves.vercel.app/" target="_blank" class="social-icon website" >
+                    <i class="fas fa-globe" title="Portfólio"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Toggle Switch -->
+        <div class="theme-switch">
+            <i class="fas fa-sun"></i>
+            <input type="checkbox" id="switch" />
+            <label for="switch"></label>
+            <i class="fas fa-moon"></i>
+        </div>
+        <section id="calculadora">
+            <!-- Input e clear -->
+            <header class="top">
+                <div class="input-valor"></div>
+            </header>
+            <ul class="key">
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li class="operador">/</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li class="operador">*</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li class="operador">-</li>
+                <li>0</li>
+                <li>.</li>
+                <li class="operador">+</li>
+                <li>c</li>
+                
+                <li class="verificar">=</li>
+            </ul>
+        </section>
+    </div>
+    <script type="text/javascript" src="script.js"></script>    
+</body>
+</html>
