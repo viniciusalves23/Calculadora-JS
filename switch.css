@@ -92,24 +92,6 @@ body.dark-theme {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.operador.dark-theme {
-    background-color: #ff9800;
-    color: white;
-}
-
-.operador.dark-theme:hover {
-    background-color: #e68900;
-}
-
-.verificar.dark-theme {
-    background-color: #4caf50;
-    color: white;
-}
-
-.verificar.dark-theme:hover {
-    background-color: #388e3c;
-}
-
 .social-icon.dark-theme {
     background-color: #555;
     color: #ccc;
